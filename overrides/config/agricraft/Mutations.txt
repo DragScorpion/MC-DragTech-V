@@ -1,0 +1,176 @@
+#ONLY MODIFY THIS CONFIG IF YOU DO NOT WANT TO USE MINETWEAKER, IF YOU WANT TO MODIFY MUTATIONS USE MINETWEAKER, THIS CONFIG IS ONLY FOR PEOPLE WHO DON'T USE MINETWEAKER
+#Define mutations here: <mutation>=<parent1>+<parent2>
+#To specify a crop, write <mod>:<cropname>:<meta>, all in lowercase (meta is optional)
+#You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
+
+/Flowers
+//Vanilla
+///Seed I
+AgriCraft:seedPoppy=AgriCraft:seedSugarcane+minecraft:pumpkin_seeds
+AgriCraft:seedDandelion=AgriCraft:seedSugarcane+minecraft:melon_seeds
+///Seed II
+AgriCraft:seedCactus=AgriCraft:seedSugarcane+AgriCraft:seedPoppy
+AgriCraft:seedTulipRed=AgriCraft:seedPoppy+AgriCraft:seedDandelion
+///Seed III
+AgriCraft:seedTulipOrange=AgriCraft:seedTulipRed+AgriCraft:seedDandelion
+AgriCraft:seedBluebells=AgriCraft:seedPoppy+AgriCraft:seedCactus
+AgriCraft:seedAnemone=AgriCraft:seedSugarcane+AgriCraft:seedTulipRed
+AgriCraft:seedFicaria Verna=AgriCraft:seedCactus+minecraft:melon_seeds
+///Seed IV
+AgriCraft:seedOrchid=AgriCraft:seedBluebells+AgriCraft:seedAnemone
+AgriCraft:seedEuphorbia Characias=AgriCraft:seedFicaria Verna+AgriCraft:seedAnemone
+AgriCraft:seedLavender=AgriCraft:seedBluebells+AgriCraft:seedPoppy
+AgriCraft:seedDeathbloom=AgriCraft:seedTulipOrange+AgriCraft:seedBluebells
+AgriCraft:seedSwampflower=AgriCraft:seedBluebells+AgriCraft:seedFicaria Verna
+///Seed V
+AgriCraft:seedAllium=AgriCraft:seedPoppy+AgriCraft:seedOrchid
+AgriCraft:seedEdelweiss=AgriCraft:seedDeathbloom+AgriCraft:seedAnemone
+AgriCraft:seedCattail=AgriCraft:seedDeathbloom+AgriCraft:seedTulipOrange
+///Seed VI
+AgriCraft:seedDaisy=AgriCraft:seedEdelweiss+AgriCraft:seedAnemone
+///Seed VII
+AgriCraft:seedTulipWhite=AgriCraft:seedDaisy+AgriCraft:seedAnemone
+///Seed VIII
+AgriCraft:seedTulipPink=AgriCraft:seedTulipWhite+AgriCraft:seedTulipRed
+//Botania
+///Seed I
+AgriCraft:seedBotaniaWhite=minecraft:nether_wart+AgriCraft:seedAnemone
+///Seed II
+AgriCraft:seedBotaniaYellow=AgriCraft:seedBotaniaWhite+AgriCraft:seedDandelion
+AgriCraft:seedBotaniaMagenta=AgriCraft:seedBotaniaWhite+AgriCraft:seedAllium
+AgriCraft:seedBotaniaCyan=AgriCraft:seedBotaniaWhite+AgriCraft:seedSwampflower
+AgriCraft:seedBotaniaBlack=AgriCraft:seedBotaniaWhite+AgriCraft:seedDeathbloom
+///Seed III
+AgriCraft:seedBotaniaRed=AgriCraft:seedBotaniaMagenta+AgriCraft:seedBotaniaBlack
+AgriCraft:seedBotaniaBlue=AgriCraft:seedBotaniaCyan+AgriCraft:seedBotaniaBlack
+AgriCraft:seedBotaniaGreen=AgriCraft:seedBotaniaCyan+AgriCraft:seedBotaniaYellow
+AgriCraft:seedBotaniaGray=AgriCraft:seedBotaniaBlack+AgriCraft:seedBotaniaWhite
+AgriCraft:seedBotaniaPink=AgriCraft:seedBotaniaMagenta+AgriCraft:seedBotaniaWhite
+///Seed IV
+AgriCraft:seedBotaniaPurple=AgriCraft:seedBotaniaRed+AgriCraft:seedBotaniaBlue
+AgriCraft:seedBotaniaOrange=AgriCraft:seedBotaniaBlue+AgriCraft:seedBotaniaYellow
+AgriCraft:seedBotaniaLightGray=AgriCraft:seedBotaniaGray+AgriCraft:seedBotaniaWhite
+AgriCraft:seedBotaniaLightBlue=AgriCraft:seedBotaniaBlue+AgriCraft:seedBotaniaWhite
+AgriCraft:seedBotaniaLime=AgriCraft:seedBotaniaGreen+AgriCraft:seedBotaniaWhite
+///Seed V
+AgriCraft:seedBotaniaBrown=AgriCraft:seedBotaniaOrange+AgriCraft:seedBotaniaBlack
+
+
+/Food
+//Vanilla
+///Seed I
+minecraft:pumpkin_seeds=AgriCraft:seedPotato+AgriCraft:seedCarrot
+///Seed II
+minecraft:melon_seeds=AgriCraft:seedCarrot+minecraft:pumpkin_seeds
+///Seed III
+AgriCraft:seedSugarcane=minecraft:wheat_seeds+minecraft:melon_seeds
+///Seed IV
+AgriCraft:seedCocoas=AgriCraft:seedCattail+AgriCraft:seedSugarcane
+///Seed V
+AgriCraft:seedShroomBrown=minecraft:nether_wart+AgriCraft:seedCocoas
+///Seed VI
+AgriCraft:seedShroomRed=minecraft:nether_wart+AgriCraft:seedShroomBrown
+//Pam
+///Seed I
+harvestcraft:whitemushroomseedItem=AgriCraft:seedShroomRed+AgriCraft:seedShroomBrown
+harvestcraft:barleyseedItem=minecraft:wheat_seeds+AgriCraft:seedSugarcane
+harvestcraft:sweetpotatoseedItem=AgriCraft:seedSugarcane+AgriCraft:seedPotato
+AgriCraft:seedSunflower=minecraft:pumpkin_seeds+AgriCraft:seedDandelion
+harvestcraft:cactusfruitseedItem=AgriCraft:seedCactus+AgriCraft:seedCocoas
+///Seed II
+harvestcraft:ryeseedItem=harvestcraft:barleyseedItem+minecraft:wheat_seeds
+harvestcraft:radishseedItem=harvestcraft:sweetpotatoseedItem+AgriCraft:seedCarrot
+harvestcraft:beanseedItem=AgriCraft:seedSunflower+harvestcraft:barleyseedItem
+harvestcraft:candleberryseedItem=harvestcraft:sweetpotatoseedItem+harvestcraft:cactusfruitseedItem
+///Seed III
+harvestcraft:cornseedItem=harvestcraft:barleyseedItem+harvestcraft:ryeseedItem
+harvestcraft:tomatoseedItem=harvestcraft:radishseedItem+minecraft:melon_seeds
+harvestcraft:onionseedItem=harvestcraft:radishseedItem+AgriCraft:seedTulipWhite
+harvestcraft:coffeeseedItem=harvestcraft:beanseedItem+AgriCraft:seedDeathbloom
+harvestcraft:peanutseedItem=harvestcraft:beanseedItem+AgriCraft:seedPotato
+harvestcraft:raspberryseedItem=harvestcraft:cactusfruitseedItem+harvestcraft:candleberryseedItem
+///Seed IV
+harvestcraft:oatsseedItem=harvestcraft:ryeseedItem+harvestcraft:cornseedItem
+harvestcraft:chilipepperseedItem=harvestcraft:tomatoseedItem+harvestcraft:radishseedItem
+harvestcraft:cabbageseedItem=harvestcraft:onionseedItem+minecraft:pumpkin_seeds
+harvestcraft:lettuceseedItem=harvestcraft:onionseedItem+minecraft:melon_seeds
+harvestcraft:bellpepperseedItem=harvestcraft:tomatoseedItem+harvestcraft:onionseedItem
+harvestcraft:sesameseedsseedItem=AgriCraft:seedSunflower+harvestcraft:cornseedItem
+harvestcraft:beetseedItem=harvestcraft:radishseedItem+harvestcraft:tomatoseedItem
+harvestcraft:cantaloupeseedItem=harvestcraft:cornseedItem+minecraft:melon_seeds
+harvestcraft:cranberryseedItem=harvestcraft:candleberryseedItem+harvestcraft:raspberryseedItem
+harvestcraft:blueberryseedItem=harvestcraft:raspberryseedItem+AgriCraft:seedBluebells
+harvestcraft:strawberryseedItem=harvestcraft:raspberryseedItem+AgriCraft:seedSugarcane
+///Seed V
+harvestcraft:riceseedItem=harvestcraft:oatsseedItem+harvestcraft:cornseedItem
+harvestcraft:cauliflowerseedItem=harvestcraft:cabbageseedItem+harvestcraft:lettuceseedItem
+harvestcraft:peasseedItem=harvestcraft:chilipepperseedItem+AgriCraft:seedFicaria Verna
+harvestcraft:mustardseedItem=harvestcraft:beanseedItem+harvestcraft:chilipepperseedItem
+harvestcraft:rutabagaseedItem=harvestcraft:beetseedItem+harvestcraft:tomatoseedItem
+harvestcraft:blackberryseedItem=harvestcraft:blueberryseedItem+harvestcraft:cranberryseedItem
+harvestcraft:kiwiseedItem=harvestcraft:strawberryseedItem+harvestcraft:cantaloupeseedItem
+///Seed VI
+harvestcraft:bambooshootseedItem=harvestcraft:riceseedItem+AgriCraft:seedSugarcane
+harvestcraft:waterchestnutseedItem=harvestcraft:peanutseedItem+harvestcraft:riceseedItem
+harvestcraft:curryleafseedItem=harvestcraft:mustardseedItem+harvestcraft:chilipepperseedItem
+harvestcraft:spinachseedItem=harvestcraft:lettuceseedItem+harvestcraft:cauliflowerseedItem
+harvestcraft:parsnipseedItem=harvestcraft:rutabagaseedItem+harvestcraft:onionseedItem
+harvestcraft:grapeseedItem=harvestcraft:blackberryseedItem+harvestcraft:blueberryseedItem
+harvestcraft:pineappleseedItem=harvestcraft:kiwiseedItem+minecraft:melon_seeds
+///Seed VII
+harvestcraft:garlicseedItem=harvestcraft:onionseedItem+harvestcraft:curryleafseedItem
+harvestcraft:spiceleafseedItem=harvestcraft:curryleafseedItem+harvestcraft:spinachseedItem
+harvestcraft:artichokeseedItem=harvestcraft:bambooshootseedItem+harvestcraft:beanseedItem
+harvestcraft:turnipseedItem=harvestcraft:parsnipseedItem+harvestcraft:beetseedItem
+///Seed VIII
+harvestcraft:scallionseedItem=harvestcraft:garlicseedItem+harvestcraft:onionseedItem
+harvestcraft:zucchiniseedItem=harvestcraft:garlicseedItem+harvestcraft:tomatoseedItem
+harvestcraft:seaweedseedItem=harvestcraft:spiceleafseedItem+harvestcraft:riceseedItem
+harvestcraft:gingerseedItem=harvestcraft:mustardseedItem+harvestcraft:spiceleafseedItem
+///Seed IX
+harvestcraft:asparagusseedItem=harvestcraft:garlicseedItem+harvestcraft:scallionseedItem
+harvestcraft:cucumberseedItem=harvestcraft:zucchiniseedItem+harvestcraft:scallionseedItem
+harvestcraft:leekseedItem=harvestcraft:scallionseedItem+harvestcraft:lettuceseedItem
+///Seed X
+harvestcraft:celeryseedItem=harvestcraft:cucumberseedItem+harvestcraft:asparagusseedItem
+harvestcraft:teaseedItem=harvestcraft:seaweedseedItem+harvestcraft:spiceleafseedItem
+harvestcraft:broccoliseedItem=harvestcraft:leekseedItem+harvestcraft:cauliflowerseedItem
+harvestcraft:brusselsproutseedItem=harvestcraft:artichokeseedItem+harvestcraft:asparagusseedItem
+harvestcraft:eggplantseedItem=harvestcraft:cucumberseedItem+harvestcraft:zucchiniseedItem
+///Seed XI
+harvestcraft:okraseedItem=harvestcraft:celeryseedItem+harvestcraft:asparagusseedItem
+harvestcraft:rhubarbseedItem=harvestcraft:celeryseedItem+harvestcraft:gingerseedItem
+harvestcraft:wintersquashseedItem=harvestcraft:eggplantseedItem+harvestcraft:cantaloupeseedItem
+harvestcraft:cottonseedItem=harvestcraft:brusselsproutseedItem+AgriCraft:seedDaisy
+harvestcraft:soybeanseedItem=harvestcraft:teaseedItem+AgriCraft:seedTulipWhite
+
+/Brewing
+//Vanilla
+///Seed I
+minecraft:nether_wart=AgriCraft:seedDeathbloom+AgriCraft:seedTulipPink
+
+
+#Ores Stufe 1
+##Nuggets (Tier Level 3)
+AgriCraft:seedNitorWart=minecraft:nether_wart+AgriCraft:seedBotaniaYellow
+AgriCraft:seedLapender=AgriCraft:seedBotaniaBlue+AgriCraft:seedNitorWart
+AgriCraft:seedElectra=AgriCraft:seedLapender+AgriCraft:seedBotaniaBlue
+AgriCraft:seedRedstodendron=AgriCraft:seedBotaniaRed+AgriCraft:seedElectra
+AgriCraft:seedQuartzanthemum=AgriCraft:seedRedstodendron+AgriCraft:seedBotaniaLightBlue
+AgriCraft:seedNetheratus=AgriCraft:seedRedstodendron+AgriCraft:seedBotaniaLightBlue
+AgriCraft:seedQuartzanthemum=AgriCraft:seedNetheratus+AgriCraft:seedRedstodendron
+AgriCraft:seedCeratus=AgriCraft:seedQuartzanthemum+AgriCraft:seedBotaniaWhite
+AgriCraft:seedCertusthemum=AgriCraft:seedBotaniaLightGray+AgriCraft:seedCeratus
+AgriCraft:seedFluixeratus=AgriCraft:seedCertusthemum+AgriCraft:seedBotaniaPurple
+AgriCraft:seedRubertus=AgriCraft:seedRedstodendron+AgriCraft:seedCertusthemum
+AgriCraft:seedSapphira=AgriCraft:seedElectra+AgriCraft:seedRubertus
+AgriCraft:seedEmeryllis=AgriCraft:seedBotaniaGreen+AgriCraft:seedSapphira
+AgriCraft:seedDiamahlia=AgriCraft:seedBotaniaCyan+AgriCraft:seedEmeryllis
+AgriCraft:seedFerranium=AgriCraft:seedDiamahlia+AgriCraft:seedRedstodendron
+AgriCraft:seedJaslumine=AgriCraft:seedFerranium+AgriCraft:seedSapphira
+AgriCraft:seedCuprosia=AgriCraft:seedRedstodendron+AgriCraft:seedJaslumine
+AgriCraft:seedNiccissus=AgriCraft:seedFerranium+AgriCraft:seedCuprosia
+AgriCraft:seedAurigold=AgriCraft:seedRedstodendron+AgriCraft:seedNiccissus
+AgriCraft:seedSilverweed=AgriCraft:seedAurigold+AgriCraft:seedJaslumine
+AgriCraft:seedPlatiolus=AgriCraft:seedSilverweed+AgriCraft:seedDiamahlia
+AgriCraft:seedPetinia=AgriCraft:seedNiccissus+AgriCraft:seedPlatiolus
