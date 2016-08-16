@@ -1,0 +1,40 @@
+DT-V 0.0.2-001
+Alle Mods hinzugefügt
+
+DT-V 0.0.2-002
+Mod Ex-Nihilo wurde hinzugefügt und wieentfernt muss durch die vorhandenen Mods gelöst werden.
+Mod Gravestone wurde entfernt (Wurde entfernt da Weltenerstellung teilweise blockiert wurden.)
+
+DT-V 0.0.2-003
+Mod WR-CBE wurde hinzugefügt.
+Mod ProjectBlue wurde hinzugefügt.
+Mod FloodLights wurde hinzugefügt.
+
+DT-V 0.0.3-004
+Agricraft Config überarbeitet
+Applied Energistics 2 Config überarbeitet
+
+DT-V 0.0.4-005
+Alle Configs überarbeitet
+
+DT-V 0.0.5-006
+Mod 4Space wurde entfernt
+
+Mod "BiomesOPlenty-2.1.0.2027" wurde upgedatet
+Mod "cm_Journeymap-5.1.4p1" wurde upgedatet
+Mod "EnderIO-2.3.0.429_beta" wurde upgedatet
+Mod "forestry-4.2.15.63" wurde upgedatet
+Mod "MineFactoryReloaded-2.8.2B1-200" wurde upgedatet
+Mod "ModTweaker2-0.9.6" wurde upgedatet
+Mod "StorageDrawers-1.10.1" wurde upgedatet
+Mod "GalacticraftCore-3.0.12.463" wurde upgedatet
+Mod "GalacticraftPlanets-3.0.12.463" wurde upgedatet
+Mod "MicdoodleCore-3.0.12.463" wurde upgedatet
+Mod "ThermalExpansion-4.1.4-247" wurde upgedatet
+
+Mod "CustomMainMenu-1.9.2" wurde hinzugefügt
+Mod "CraftingTweaks-1.0.82" wurde hinzugefügt
+
+Mod "EnderStorage-1.4.7.37" wurde unbenannt
+
+Config von Mekanism geändert (Erzgenerierung deaktiviert)
