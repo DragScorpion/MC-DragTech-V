@@ -1,3 +1,46 @@
 -Minecraft Vanilla
 -Agricraft
--
+-Chisel
+
+--Mariculture
+--Immersive
+--Botania
+--Jabba
+
+---Tinker Smeltery
+---Pam
+---Forestry
+---Railcraft
+---Drawers
+
+----Extra Utilities
+----GregTech Bronze Age
+----Buildcraft
+----Binni
+
+-----Ender IO
+-----GregTech UV
+-----Project Red
+-----Armory
+-----OpenBlocks
+
+------Thermal Expansion
+------GregTech LV
+------Steve's Workshop
+------Steve's Carts
+------Minefactory Reloaded
+
+-------Solar
+-------Jetpack
+-------GregTech MV
+-------OpenComputers
+
+--------Applied Energistics 2
+--------Mekanism
+--------GregTech HV
+--------Galacticraft
+--------Ender Storage
+
+---------Extra Cells
+---------Big Reactors
+---------GregTech EV
