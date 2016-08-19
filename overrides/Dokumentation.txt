@@ -42,5 +42,9 @@ Config von Mekanism geändert (Erzgenerierung deaktiviert)
 DT-V 0.0.6-007
 Mod Avaritia-1.11 wurde hinzugefügt
 
-Vanilla Scripts hinzugefügt
+Script vanilla.zs hinzugefügt
 	Änderung der Stick Rezepte
+	
+DT-V 0.0.6-008
+Scripts Anpassung vanilla.zs
+Script gregtech.zs hinzugefügt

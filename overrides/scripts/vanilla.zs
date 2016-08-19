@@ -1,12 +1,16 @@
 ////Imports
 
+////dictionary
+val woodSlabOre = <ore:woodSlab>;
+woodSlabOre.addAll(<ore:slabWoodSpruce>);
+woodSlabOre.addAll(<ore:slabWood>);
+
 ////Values
 //////Ore
 val stickOre = <ore:woodStick>;
 val plankWoodOre = <ore:plankWood>;
 val sawToolOre = <ore:craftingToolSaw>;
 val treeSaplingOre = <ore:treeSapling>;
-val slabWoodOre = <ore:slabWoodSpruce>, <ore:slabWood>;
 
 //////Single
 val deadbush = <minecraft:deadbush>;
@@ -23,3 +27,4 @@ recipes.removeShaped(stickOre * 2, [[sawToolOre], [deadbush]]);
 recipes.removeShaped(stickOre * 2, [[sawToolOre], [plankWoodOre]]);
 
 recipes.addShapeless(stick, [treeSaplingOre]);
+recipes.addShapeless(stick * 2, [sawToolOre, woodSlabOre]);
