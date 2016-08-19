@@ -48,3 +48,6 @@ Script vanilla.zs hinzugefügt
 DT-V 0.0.6-008
 Scripts Anpassung vanilla.zs
 Script gregtech.zs hinzugefügt
+
+DT-V 0.0.6-009
+Script Splitt
