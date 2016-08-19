@@ -38,3 +38,9 @@ Mod "CraftingTweaks-1.0.82" wurde hinzugefügt
 Mod "EnderStorage-1.4.7.37" wurde unbenannt
 
 Config von Mekanism geändert (Erzgenerierung deaktiviert)
+
+DT-V 0.0.6-007
+Mod Avaritia-1.11 wurde hinzugefügt
+
+Vanilla Scripts hinzugefügt
+	Änderung der Stick Rezepte
