@@ -22,7 +22,7 @@ recipes.remove(TankFour);
 
 
 //////Recipes
-recipes.addShaped(TankOne,[[Glass, null, Glass], [Glass, Waterproof, Glass], [Glass, Glass, Glass]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.WithTag({tier: 0}),[[Glass, null, Glass], [Glass, Waterproof, Glass], [Glass, Glass, Glass]]);
 recipes.addShaped(TankTwo,[[CopperPlateOre, Glass, CopperPlateOre], [Glass, TankOne, Glass], [CopperPlateOre, Glass, CopperPlateOre]]);
 recipes.addShaped(TankThree,[[IronPlateOre, Glass, IronPlateOre], [Glass, TankTwo, Glass], [IronPlateOre, Glass, IronPlateOre]]);
-recipes.addShaped(TankFour,[[BronzePlateOre, Glass, BronzePlateOre], [Glass, TankThree, Glass], [BronzePlateOre, Glass, BronzePlateOre]]);
+recipes.addShaped(<Mekanism:MachineBlock2:11>.WithTag({tier: 1}),[[BronzePlateOre, Glass, BronzePlateOre], [Glass, TankThree, Glass], [BronzePlateOre, Glass, BronzePlateOre]]);
