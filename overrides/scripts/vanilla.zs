@@ -1,4 +1,5 @@
 ////Imports
+import mods.gregtech.Lathe;
 
 ////dictionary
 val woodSlabOre = <ore:woodSlab>;
@@ -28,3 +29,6 @@ recipes.removeShaped(stickOre * 2, [[sawToolOre], [plankWoodOre]]);
 
 recipes.addShapeless(stick, [treeSaplingOre]);
 recipes.addShapeless(stick * 2, [sawToolOre, woodSlabOre]);
+
+////Machines
+Lathe.addRecipe(stick * 2, woodSlabOre, 20, 8);

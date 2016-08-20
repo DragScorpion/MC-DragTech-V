@@ -1,23 +1,23 @@
-DT-V 0.0.2-001
+0.0.2-001
 Alle Mods hinzugefügt
 
-DT-V 0.0.2-002
+0.0.2-002
 Mod Ex-Nihilo wurde hinzugefügt und wieentfernt muss durch die vorhandenen Mods gelöst werden.
 Mod Gravestone wurde entfernt (Wurde entfernt da Weltenerstellung teilweise blockiert wurden.)
 
-DT-V 0.0.2-003
+0.0.2-003
 Mod WR-CBE wurde hinzugefügt.
 Mod ProjectBlue wurde hinzugefügt.
 Mod FloodLights wurde hinzugefügt.
 
-DT-V 0.0.3-004
+0.0.3-004
 Agricraft Config überarbeitet
 Applied Energistics 2 Config überarbeitet
 
-DT-V 0.0.4-005
+0.0.4-005
 Alle Configs überarbeitet
 
-DT-V 0.0.5-006
+0.0.5-006
 Mod 4Space wurde entfernt
 
 Mod "BiomesOPlenty-2.1.0.2027" wurde upgedatet
@@ -39,15 +39,25 @@ Mod "EnderStorage-1.4.7.37" wurde unbenannt
 
 Config von Mekanism geändert (Erzgenerierung deaktiviert)
 
-DT-V 0.0.6-007
+0.0.5-007
+OpenBlocks Buch deaktiviert
+OpenComputers Buch deaktiviert
+
+0.0.6-008
 Mod Avaritia-1.11 wurde hinzugefügt
 
 Script vanilla.zs hinzugefügt
 	Änderung der Stick Rezepte
 	
-DT-V 0.0.6-008
+0.0.6-009
 Scripts Anpassung vanilla.zs
 Script gregtech.zs hinzugefügt
 
-DT-V 0.0.6-009
+0.0.6-010
 Script Splitt
+
+0.0.6-011
+Bugfix Scripts
+
+0.0.7-012
+config von OpenBlocks geändert [Tank deaktiviert]
