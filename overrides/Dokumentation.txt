@@ -61,3 +61,7 @@ Bugfix Scripts
 
 0.0.7-012
 config von OpenBlocks geändert [Tank deaktiviert]
+
+0.0.8-013
+------------------2016-08-26
+Forestry Maschinen angepasst
